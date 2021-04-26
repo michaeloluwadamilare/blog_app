@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 # blog_app
 check it out: https://michaelblogapp.herokuapp.com
 
