@@ -55,11 +55,11 @@ Post Installation
 
 Go to the web browser and visit http://localhost:8000/home
 
-Admin username: michael
+Admin username: admin
 
-Admin password: 123
+Admin password: djangoadmin
 
-User username: johnson
+User username: Johnson
 
 User password: django1234
 
