@@ -1,4 +1,4 @@
-# blog_app
+# blog_app Demo
 
 # blog
 Django Blog Demo
