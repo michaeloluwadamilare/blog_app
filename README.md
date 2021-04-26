@@ -3,9 +3,7 @@
 check it out: https://michaelblogapp.herokuapp.com
 
 =======
-# blog_app Demo
-
-Django Blog Demo
+Django Blog-app Demo
 About
 
 This is a demo project for practicing Django. The idea was to build some basic blogging platform.
