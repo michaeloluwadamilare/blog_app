@@ -1,7 +1,6 @@
 from django.contrib.auth import get_user_model
 from django.test import TestCase
 from django.urls import reverse
-
 from .models import Post
 
 
@@ -50,3 +49,11 @@ class BlogTests(TestCase):
         self.assertEqual(no_response.status_code, 404)
         self.assertContains(response, 'A good title')
         self.assertTemplateUsed(response, 'post_edit.html')
+
+    def test_post_delete_view(self):
+        response = self.client.get('/post/1/delete')
+        no_response = self.client.get('/post/100000/delete')
+        self.assertEqual(response.status_code, 200)
+        self.assertEqual(no_response.status_code, 404)
+        self.assertContains(response, 'A good title')
+        self.assertTemplateUsed(response, 'post_delete.html')

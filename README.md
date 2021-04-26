@@ -1,6 +1,7 @@
 # blog_app
+click here: https://michaelblogapp.herokuapp.com
 
-# blog
+
 Django Blog Demo
 About
 
@@ -13,6 +14,7 @@ There is a login and registration functionality included.
 Only authenticated users can add new blog posts. Every authenticated user can comment on posts made by other users. Non-authenticated users can see all blog posts, but cannot add new posts, delete, edit or comment.
 
 App is covered with tests.
+
 Prerequisites
 
 [Optional] Install virtual environment:
